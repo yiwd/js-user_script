@@ -6,6 +6,7 @@
 // @version     1
 // @grant       none
 // ==/UserScript==
+<script type="text/javascript">
 function customEndTrain() {
   window.open('http://www.jppt.com.cn/gzpt/index/study');
   endTrain();
@@ -15,3 +16,4 @@ function customEndTrain() {
     setTimeout(customEndTrain, 899000);//899秒
   });
 }) ();
+</script>
