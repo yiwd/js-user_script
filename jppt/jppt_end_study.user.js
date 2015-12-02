@@ -7,7 +7,7 @@
 // @grant       none
 // ==/UserScript==
 function customEndTrain() {
-  window.open('http://www.jppt.com.cn/xmpublic/student/theory.do?area=3502&type=1');
+  window.open('http://www.jppt.com.cn/gzpt/index/study');
   endTrain();
 };
 (function () {
