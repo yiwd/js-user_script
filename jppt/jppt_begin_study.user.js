@@ -6,7 +6,6 @@
 // @version     1
 // @grant       none
 // ==/UserScript==
-<script type="text/javascript">
 function beginStudy() {
   beginTrain();
   window.close();
@@ -16,4 +15,3 @@ function beginStudy() {
     setTimeout(beginStudy, 5000);
   });
 }) ();
-</script>
